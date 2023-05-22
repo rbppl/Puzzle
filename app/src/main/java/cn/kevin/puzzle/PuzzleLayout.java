@@ -3,7 +3,6 @@ package cn.kevin.puzzle;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.support.v4.widget.ViewDragHelper;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -13,6 +12,8 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
+import androidx.customview.widget.ViewDragHelper;
 
 import cn.kevin.puzzle.model.Block;
 

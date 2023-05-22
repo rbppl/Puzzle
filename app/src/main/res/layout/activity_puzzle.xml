@@ -24,6 +24,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center|end"
-        android:background="#55DDDDDD"
+        android:background="#FFFFFF"
         android:text="@string/tips" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start" />
+
 </FrameLayout>
